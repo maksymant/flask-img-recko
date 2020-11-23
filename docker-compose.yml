@@ -1,7 +1,8 @@
 version: "3"
+
 services:
-  flask:
-    build: ./flask
+  flask_api:
+    build: flask_api
     ports:
       - "5000:5000"
     links:
